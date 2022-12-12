@@ -4,6 +4,7 @@ const possibleChoices = ["rock", "paper", "scissor"];
 
 
 function playRound(playerSelection, computerSelection) {
+    console.log(computerSelection)
  
   if (playerSelection === computerSelection){
    return("Tie");
@@ -19,6 +20,7 @@ function playRound(playerSelection, computerSelection) {
       
    else if(computerSelection === "rock" && playerSelection === "scissor" || computerSelection === "scissor" && playerSelection === "paper" ||computerSelection === "paper" && playerSelection === "rock"){
       return("Comp Wins");
+       
    }
 }
 }
@@ -37,10 +39,10 @@ function game(){
    const playerSelection = prompt("Choose").toLowerCase();
    var computerSelection = possibleChoices[Math.floor(Math.random()*3)];
    console.log(playRound(playerSelection, computerSelection));
-       if (console.log(playRound(playerSelection, computerSelection)) === "Player Wins"){
+       if ((playRound(playerSelection, computerSelection)) === "Player Wins"){
            playerPoints++
        }
-       else if (console.log(playRound(playerSelection, computerSelection)) === "Comp Wins"){
+       else if ((playRound(playerSelection, computerSelection)) === "Comp Wins"){
            compPoints++
        }else{
            
