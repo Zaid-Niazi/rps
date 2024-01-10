@@ -1,4 +1,4 @@
-Initial RPS GAME Structure https://vazcon.github.io/rps/
+Initial RPS GAME Structure https://zaid-niazi.github.io/rps/
  <br>
 
-Updated Repo - https://github.com/vazcon/rps2
+Updated Repo - https://github.com/zaid-niazi/rps2
